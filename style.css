@@ -3,8 +3,15 @@
     background-color: rgb(159, 238, 106);
     border: none;
     border-radius: 5px;
+    padding: 5px;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navbar Design */
 #nav {
     width: 90%;
     height: 30px;
@@ -14,7 +21,6 @@
     margin-right: auto;
     padding: 10px 0px 10px 0px;
     /* border: 5px solid rebeccapurple; */
-    
 }
 
 #nav-list {
@@ -23,4 +29,41 @@
     gap: 15px;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+
+/* Banner Design  */
+#banner {
+    width: auto;
+    height: 100vh;
+    color: white;
+    background-image: url('/assets/hero-bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#banner-container {
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10%;
+    font-size: larger;
+}
+
+#banner-heading {
+    color: rgb(231, 230, 230);
+    margin-top: 5px;
+}
+#banner-heading1 {
+    color: rgb(22, 184, 233);
+    margin-top: 5px;
+}
+
+#banner-paragraph {
+    width: 350px;
+    display: flex;
+    font-size: small;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0px 5px 0px;
+    color: rgb(231, 230, 230);
 }
