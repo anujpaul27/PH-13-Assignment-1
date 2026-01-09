@@ -89,7 +89,7 @@
 
 #card {
     width: 150px;
-    height: 120px;
+    height: 140px;
     text-align: center;
     padding: 20px 10px 15px 10px;
     background-color: rgb(245, 244, 244);
@@ -101,10 +101,45 @@
     background-color: palevioletred;
     border-radius: 50%;
     padding: 8px;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
 }
 
 #card-paragraph {
-    font-size: 10px;
+    font-size: 13px;
+    color: gray;
+    padding: 10px 0px 10px 0px;
+}
+
+
+/* Brain Section  */
+#brain {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+#brain-img {
+    width: 40%;
+    
+}
+
+#brain-textp {
+    font-size: small;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+#brain-text {
+    width: 40%;
+    
+}
+
+#brain-text-container {
+    flex-direction: column;
+    gap: 20px;
 }
